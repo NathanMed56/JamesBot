@@ -24,13 +24,14 @@ SPOTIFY_CLIENT_SECRET = "1b7cfbbd75ab4e70a6d1b26a053859fd"
 
 # YT-DLP options
 YDL_OPTIONS = {
-    "format": "bestaudio/best",
-    "noplaylist": False,
+    "format": "ba[ext=m4a]/ba/best",
     "quiet": True,
     "no_warnings": True,
+    "noplaylist": False,
     "cachedir": False,
     "extract_flat": False,
-    "cookiefile": "cookies.txt",  # <-- Add your cookie file here
+    "cookiefile": "cookies.txt",
+    "lazy_playlist": True,
 }
 
 

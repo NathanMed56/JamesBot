@@ -30,7 +30,9 @@ YDL_OPTIONS = {
     "no_warnings": True,
     "cachedir": False,
     "extract_flat": False,
+    "cookiefile": "cookies.txt",  # <-- Add your cookie file here
 }
+
 
 # FFMPEG options
 FFMPEG_OPTIONS = {

@@ -30,7 +30,6 @@ YDL_OPTIONS = {
     "noplaylist": False,
     "cachedir": False,
     "extract_flat": False,
-    "cookiefile": "cookies.txt",
     "lazy_playlist": True,
 }
 

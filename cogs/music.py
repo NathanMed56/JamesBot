@@ -24,14 +24,13 @@ SPOTIFY_CLIENT_SECRET = "1b7cfbbd75ab4e70a6d1b26a053859fd"
 
 # YT-DLP options
 YDL_OPTIONS = {
-    "format": "bv*+ba/best",
+    "format": "ba[ext=webm][acodec=opus]/ba/best",
     "noplaylist": False,
     "quiet": True,
     "no_warnings": True,
     "cachedir": False,
     "extract_flat": False,
     "cookiefile": "cookies.txt",
-    "source_address": "0.0.0.0",  # fixes occasional IPv6 issues
 }
 
 # FFMPEG options

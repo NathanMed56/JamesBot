@@ -24,7 +24,7 @@ SPOTIFY_CLIENT_SECRET = "1b7cfbbd75ab4e70a6d1b26a053859fd"
 
 # YT-DLP options
 YDL_OPTIONS = {
-    "format": "ba[ext=m4a]/ba/bestaudio/best",
+    "format": "bv*+ba/best",
     "noplaylist": False,
     "quiet": True,
     "no_warnings": True,
